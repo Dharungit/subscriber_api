@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/66522aa35b82a1c507b5a7d4
+
+
+###
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Tony G",
+    "subscribedToChannel": "Tech"
+}
+
+###
+DELETE http://localhost:3000/subscribers/66522aa35b82a1c507b5a7d4
+
+###
+
+PATCH http://localhost:3000/subscribers/665230dc283857778738c382
+Content-Type: application/json
+
+{
+    "name": "Tony A",
+    "subscribedToChannel": "Education"
+}
